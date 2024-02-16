@@ -62,7 +62,8 @@
   }
   
   .headerBtn {
-    background-color: #0071c2;
+    /* background-color: #0071c2; */
+    background-color:  #003580;
     color: white;
     font-weight: 500;
     border: none;
@@ -73,8 +74,10 @@
   .headerSearch {
     height: 30px;
     background-color: white;
-    border: 3px solid #febb02;
+    /* border: 3px solid #febb02; */
     border: 3px solid #003580;
+    /* border:c3px linear-gradient(50deg, #003580,  #041016) ; */
+
     display: flex;
     align-items: center;
     justify-content: space-around;

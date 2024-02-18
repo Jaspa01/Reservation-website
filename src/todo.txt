@@ -1,0 +1,46 @@
+
+"check availability" button
+add a heart emoji to hotels cards
+add star ratings
+create a db for images and hotel info
+create an IF statement for hotels
+update price lists
+add carousel to homes images
+update images 
+update colors
+add skeleton loading page
+
+
+
+
+  /* background-color: #ac821f; */
+  /* background-color: #dfc57b; */
+  /* background-color: #eddbab; */
+  /* background-color: #fbfcf7; */
+  /* background-color: #f3ecd0; */
+
+  /* background-color: #ad9662; */
+
+  /* background-color: #05141b; */
+  /* background-color: #11212e; */
+  /* background-color: #233543; */
+  /* background-color: #4a5c6a; */
+  /* background-color: #9aa8ab; */
+  /* background-color: #ccd0cf; */
+
+
+  background-img {
+      background: linear-gradient(50deg, #041016, #003580);
+
+  background: url("../../media/background/bg7.jpg");
+  background: url("../../media/background/bg9.jpg");
+  background: url("../../media/background/bg12.jpg");
+  background: url("../../media/background/bg14.jpg");
+  background-position: top;
+  /* background: url("../../media/background/bg19.jpg"); */
+  /* background: url("../../media/background/bg3.jpg"); */
+  /* background-position: top; */
+  /* background: url("../../media/background/bg5.jpg"); */
+  background-size: cover;
+  /* background-position: center; */
+  }

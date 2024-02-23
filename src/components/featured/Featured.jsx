@@ -1,9 +1,42 @@
+
+import { faCalendarCheck, faBolt, FaLockOpen, faLockOpen } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./Featured.css";
 
 const Featured = () => {
   return (
     <div className="featured">
-      <div className="featuredItem">
+      <h2>Booking made easy</h2>
+      <div className="tips">
+        <div className="tip">
+          <FontAwesomeIcon icon={faLockOpen}/>
+          <h4>No hidden fees</h4>
+          <p>The price you see is the price you pay</p>
+        </div>
+        <div className="tip">
+          <FontAwesomeIcon icon={faBolt} style={{color:"golden"}}/>
+          <h4>Instant confirmation</h4>
+          <p>Most stays can be booked instantly</p>
+        </div>
+        <div className="tip">
+          <FontAwesomeIcon icon={faCalendarCheck}/>
+          <h4>Flexible cancellation</h4>
+          <p>Many properties offer flexible cancellation</p>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+      {/* <div className="featuredItem">
         <img
           src="https://cf.bstatic.com/xdata/images/city/max500/957801.webp?k=a969e39bcd40cdcc21786ba92826063e3cb09bf307bcfeac2aa392b838e9b7a5&o="
           alt=""
@@ -36,7 +69,7 @@ const Featured = () => {
           <h1>Austin</h1>
           <h2>532 properties</h2>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -7,13 +7,14 @@ import PropertyList from "../../components/propertyList/PropertyList";
 import FeaturedProperties from "../../components/featuredProperties/FeaturedProperties";
 import MailList from "../../components/mailList/MailList";
 import Footer from "../../components/footer/Footer";
+import Nations from "../../components/featuredNations/Nations";
 
 const Home = () => {
   return (
     <div>
-      {/* <Navbar /> */}
       <Header />
       <div className="homeContainer">
+        <Nations/>
         <Featured />
         <h1 className="homeTitle">Browse by property type</h1>
         <PropertyList/>

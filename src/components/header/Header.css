@@ -23,7 +23,7 @@
   border: none;
   padding: 8px 15px;
   border: 1.4px solid white;
-  border-radius: 6px;
+  border-radius: 5px;
   cursor: pointer;
   background: white;
   color: #003580;
@@ -34,6 +34,7 @@
   background: url("../../media/background/bg14.jpg");
   background-position: top;
   background-size: cover;
+  margin-bottom: -3.5rem;
 }
 
 .header {
@@ -87,7 +88,8 @@
   color: white;
   font-weight: 500;
   border: none;
-  padding: 10px;
+  border-radius: 5px;
+  padding: 10px 20px;
   cursor: pointer;
 }
 
@@ -96,12 +98,10 @@
   background-color: white;
   /* border: 3px solid #febb02; */
   border: 3px solid #003580;
-  /* border:c3px linear-gradient(50deg, #003580,  #041016) ; */
-
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 10px 0px;
+  padding: 25px 0px;
   border-radius: 5px;
   position: absolute;
   bottom: -25px;
